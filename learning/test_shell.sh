@@ -21,3 +21,7 @@ echo "current process id: $$";
 for i in "$@"; do
     echo $i
 done
+
+
+val=`expr 1 + 1`
+echo "val is $val"
